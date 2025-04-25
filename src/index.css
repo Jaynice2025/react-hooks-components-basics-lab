@@ -50,8 +50,7 @@ nav a:active {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 50vh;
-  min-height: 400px;
+  height: 100vh;
   padding: 1rem;
 }
 
@@ -61,4 +60,8 @@ nav a:active {
 
 #about img {
   max-height: 50%;
+}
+
+#about a {
+  display: block;
 }
